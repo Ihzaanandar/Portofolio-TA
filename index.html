@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fas fa-bars" id="button"></i>
+        <i class="fas fas fas fa-times" id="close"></i>
+    </label>
+    <div class="sidebar">
+        <header>Menu</header>
+        <ul>
+            <li><a href="#"><i class = "fas fas fas fa-home"></i>Home</a></li>
+            <li><a href="#about"><i class = "fas fas fas far fa-circle"></i>About</a></li>
+            <li><a href="#socialMedia"><i class = "fas fas fas fab fas fa-box"></i>Social Media</a></li>
+            <li><a href="#contact"><i class = "fas fas far fa-envelope"></i>Contact</a></li>
+        </ul>
+    </div>
+
+    <header>
+        <h1>Personal Portofolio</h1>
+    </header>
+
+    <div class="home">
+        <img id="gambarA" src="1.jpg" alt="">
+        <div class="desking">
+            <h2>Ihza Ananda Rachman</h2>
+            <h3>Informatika</h3>    
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="abouttittle">
+        <h1 style="text-align: center; margin: 30px;">About Me</h1>
+        <p style="font-family: 'Times New Roman', Times, serif; padding-left: 30px">
+            Hi! My title is Ihza Ananda Racman, and I am an Informatics building understudy at Ahmad Dahlan College. 
+            My interface lie within the field of information examination and program improvement. This field permits me 
+            to interpret data into bits of knowledge and construct arrangements to address real-world issues.</p> 
+            <br>
+        <p style="font-family: 'Times New Roman', Times, serif; padding-left: 30px">           
+            Past specialized skill, I approach each challenge with a development attitude. I see problems as openings to 
+            memorize and develop, continually seeking out for ways to refine my abilities and knowledge. I unequivocally 
+            accept in collaboration and am continuously energetic to trade thoughts and work at the side others.</p> 
+            <br>
+        <p style="font-family: 'Times New Roman', Times, serif; padding-left: 30px">
+            Thank you for the opportunity to present myself! On the off chance that you're fascinated by collaborating on 
+            ventures, trading thoughts in information investigation or program improvement, or essentially interfacing with 
+            individual IT devotees, it would be ideal if you feel free to contact me. I am more than upbeat to share my 
+            encounters and learn from you.</p>
+        </div>
+        <img id="gambarB" src="2.jpg" alt="">
+    </div>
+
+    <div class="socialMedia" id="socialMedia">
+        <h1>Social Media</h1>
+        <div class="logo">
+            <div class="instagram"><a href="https://www.instagram.com/rojikensu_04?igsh=YWczOXE5aGlkbjVp" target="_blank"><i class = "fab fa-instagram"></i></a></div>
+            <div class="facebook"><a href="https://www.facebook.com/ihzaananda.rachman.1?sfnsn=wiwspwa&mibextid=RUbZ1f" target="_blank"><i class = "fab fa-facebook-f"></i></a></div>
+            <div class="github"><a href="https://github.com/Ihzaanandar" target="_blank"><i class = "fab fa-github"></i></a></div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <h1>Contact Me</h1>
+        <div class="form">
+        <form action="contact.php" method="post">
+            <input type="text" placeholder="Username" name="username" required><br>
+            <input type="email" placeholder="E-mail" name="email" required><br>
+            <textarea name="message" id="message" placeholder="Message" rows="4" style="resize: none;"></textarea><br>
+            <input type="submit" name="submit" value="Send"></input><br>
+        </form>
+    </div>
+    </div>
+
+    <footer>
+        <p class="footer">&copy; 2024 PersonalPortofolio. All Rights Reserved.</p>
+    </footer> 
+    
+</body>
+</html>
